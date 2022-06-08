@@ -40,9 +40,6 @@ function remover5() {
     d('.dado5').classList.add('d-none')
 }
 function reiniciar() {
-    document.querySelectorAll('.anotar').forEach(function (e) {
-        e.value = ''
-    })
     document.querySelectorAll('img').forEach(function (img) {
         img.classList.remove('d-none')
     })
