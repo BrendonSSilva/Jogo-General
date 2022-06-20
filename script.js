@@ -40,6 +40,9 @@ function remover5() {
     d('.dado5').classList.add('d-none')
 }
 function reiniciar() {
+    document.querySelectorAll('.anotar').forEach(function (e) {
+        e.value = ''
+    })
     document.querySelectorAll('img').forEach(function (img) {
         img.classList.remove('d-none')
     })
@@ -62,7 +65,7 @@ function somar() {
     let v8 = d('#n1f').value
     let v9 = d('#n1p').value
     let v10 = d('#n1g').value
-    d('#n1t').value = parseInt(v1, 10) + parseInt(v2, 10) + parseInt(v3, 10) + parseInt(v4, 10) + parseInt(v5, 10) + parseInt(v6, 10) + parseInt(v7, 10) + parseInt(v8, 10) + parseInt(v9, 10) + parseInt(v10, 10)
+    d('#n1t').value = +v1 + +v2 + +v3 + +v4 + +v5 + +v6 + +v7 + +v8 + +v9 + +v10
 
     let c1 = d('#n21').value
     let c2 = d('#n22').value
@@ -74,16 +77,12 @@ function somar() {
     let c8 = d('#n2f').value
     let c9 = d('#n2p').value
     let c10 = d('#n2g').value
-    d('#n2t').value = parseInt(c1, 10) + parseInt(c2, 10) + parseInt(c3, 10) + parseInt(c4, 10) + parseInt(c5, 10) + parseInt(c6, 10) + parseInt(c7, 10) + parseInt(c8, 10) + parseInt(c9, 10) + parseInt(c10, 10)
+    d('#n2t').value = +c1 + +c2 + +c3 + +c4 + +c5 + +c6 + +c7 + +c8 + +c9 + +c10
 
 }
-
 
 d('.jogar').addEventListener('click', girar)
 
 d('.limpar').addEventListener('click', limpar)
 
 d('.somar').addEventListener('click', somar)
-
-
-
