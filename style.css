@@ -1,26 +1,30 @@
-body{
+body {
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: linear-gradient(to bottom right, #ff00fb, rgb(0, 0, 0))
 }
-p{
+
+p {
     margin: 0px !important;
     color: #00ff00
 }
-.pai{
+
+.pai {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.filho{
+
+.filho {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.389);
     width: 600px;
     height: 350px;
     border-radius: 10px;
 }
-.filho2{
+
+.filho2 {
     margin-top: 10px !important;
     padding: 10px 10px 20px 10px !important;
     background-color: rgba(0, 0, 0, 0.389);
@@ -28,39 +32,47 @@ p{
     height: auto;
     border-radius: 10px;
 }
-img{
-    border-radius:  20px;
+
+img {
+    border-radius: 20px;
     width: 100px
 }
-.display-none{
+
+.display-none {
     display: none !important;
 }
-.ml{
+
+.ml {
     margin-left: 12px !important;
 }
-span, input{
+
+span,
+input {
     border: 1px solid #000 !important;
     border-radius: 5px;
     margin-top: 5px !important;
 }
-span{
+
+span {
     padding: 0px 0px 0px 12px !important;
     background-color: #ccc !important;
     width: 35px !important;
 }
-.anotar{
+
+.anotar {
     width: 276.3px !important;
 }
 
-@media(max-width:576px){
-    .filho{
+@media(max-width:576px) {
+    .filho {
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.389);
         width: 360px;
         height: auto;
         border-radius: 10px;
     }
-    .filho2{
+
+    .filho2 {
         margin-top: 10px !important;
         padding: 10px 10px 20px 10px !important;
         background-color: rgba(0, 0, 0, 0.389);
@@ -68,23 +80,32 @@ span{
         height: auto;
         border-radius: 10px;
     }
-    span{
+
+    span {
         padding: 0px 0px 0px 6px !important;
         background-color: #ccc !important;
         width: 25px !important;
     }
-    .anotar{
+
+    .anotar {
         width: 166px !important;
     }
-    .ml-sm{
+
+    .players {
+        width: 166px !important;
+    }
+
+    .ml-sm {
         margin-left: 3px
     }
-    .ml{
-        margin-left: 3px !important; 
+
+    .ml {
+        margin-left: 3px !important;
     }
-    body{
+
+    body {
         padding: 20px !important;
-        
+
         background-image: linear-gradient(to bottom right, #ff00fb, rgb(0, 0, 0))
     }
 }
